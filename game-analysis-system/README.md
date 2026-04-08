@@ -9,11 +9,15 @@ A Steam game analytics platform built with Flask + React, featuring game discove
 
 ## 技术栈
 
-- **后端**: Flask + SQLAlchemy + MySQL + JWT认证
-- **前端**: React + Ant Design + Recharts
-- **数据分析**: Python + Pandas
-- **推荐系统**: 基于内容推荐 + 协同过滤
-- **AI助手**: 接入 DeepSeek API
+**后端**: Flask + SQLAlchemy + MySQL + JWT认证
+
+**前端**: React + Ant Design + Recharts
+
+**数据分析**: Python + Pandas
+
+**推荐系统**: 基于内容推荐 + 协同过滤
+
+**AI助手**: 接入 DeepSeek API
 
 ## 项目结构
 
@@ -301,28 +305,6 @@ npm run dev
 - 热门开发商 TOP 15
 - 热门发行商 TOP 15
 - 开发商详情表（含平均好评率、平均价格）
-
----
-
-## English Overview
-
-### Key Features
-- Home dashboard with core Steam market metrics
-- Game list with search/filter/sort/pagination
-- Game detail page with favorite/rating/similar-game recommendation
-- Recommendation module (content-based + collaborative)
-- Community module (posts, comments, likes)
-- Friend & direct message system
-- AI assistant powered by DeepSeek API
-- **Bilingual UI (Chinese/English) with persisted language preference**
-- **Compare Lab** under the game list module:
-  - Compare up to 4 games side by side
-  - Auto-highlight best values per metric
-  - Weighted scoring model with robust missing-value handling
-
-### Start Services
-- Backend: `cd backend && python main.py`
-- Frontend: `cd frontend && npm run dev`
 
 ---
 
