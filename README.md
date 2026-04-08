@@ -17,8 +17,8 @@ A Steam game analytics platform built with Flask + React, featuring game discove
 
 **AI助手**: 接入 DeepSeek API
 
-## 项目结构（其中games.csv可在https://www.kaggle.com/datasets/fronkongames/steam-games-dataset下载到项目文件中）
-
+## 项目结构
+其中games.csv需在https://www.kaggle.com/datasets/fronkongames/steam-games-dataset下载到项目中
 ```
 game-analysis-system/
 ├── backend/                # 后端代码
