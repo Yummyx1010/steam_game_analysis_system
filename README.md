@@ -1,7 +1,5 @@
 # Steam 游戏数据分析系统 / Steam Game Analytics System
 
-> 中文与英文说明都在本 README 中（Chinese + English）。
-
 一个基于 Flask + React 的 Steam 游戏数据分析系统，提供游戏信息查询、筛选、统计分析、用户认证、游戏推荐、社区互动、AI助手等功能。
 
 A Steam game analytics platform built with Flask + React, featuring game discovery/filtering, statistics, authentication, recommendations, community interaction, and an AI assistant.
@@ -19,7 +17,7 @@ A Steam game analytics platform built with Flask + React, featuring game discove
 
 **AI助手**: 接入 DeepSeek API
 
-## 项目结构
+## 项目结构（其中games.csv可在https://www.kaggle.com/datasets/fronkongames/steam-games-dataset下载到项目文件中）
 
 ```
 game-analysis-system/
@@ -54,9 +52,11 @@ game-analysis-system/
 
 ### 前置要求
 
-- Python 3.8+
-- Node.js 18+
-- MySQL 8.0+
+Python 3.8+
+
+Node.js 18+
+
+MySQL 8.0+
 
 ---
 
@@ -469,10 +469,6 @@ ALTER TABLE games MODIFY COLUMN user_score DECIMAL(5,2) DEFAULT 0;
 ### 3. 开发商/发行商重复导入
 
 脚本已处理重复数据，会自动跳过已存在的记录。
-
-### 4. JWT Token 过期
-
-重新登录即可获取新的 Token。
 
 ---
 
